@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Figuring Out Materialize</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Colors</h1>
+      <div class="red white-text">Div with color class</div>
+      <div class="yellow lighten-3">Div with yellow</div>
+
+      <h1>BUTTONS</h1>
+      <button class="btn yellow black-text">Read More</button>
+      <button class="btn waves-effect">Read More</button>
+      <button class="btn-large waves-effect waves-light">Read More</button>
+      <button class="btn-small waves-effect waves-light disabled">Read More</button>
+      <button class="btn-large red black-text waves-effect waves-light">Read More</button>
+      <button class="btn-large purple red-text lighten-4 waves-effect waves-light">Read More</button>
+      <button class="btn-large blue darken-2 waves-effect waves-light">Read More</button>
+      <button class="btn-large yellow lighten-3 blue-text waves-effect waves-light">Read More</button>
+      <button class="btn btn-large brown"><i class="material-icons left">cloud</i>READ MORE</button>
+    
+      <!-- <h1>FLOATING BUTTON</h1> -->
+      <a href="#" class="btn-floating red btn-large"><i class="large material-icons">add</i></a>
+
+      <!-- <h1>FIXED ACTION BUTTON</h1> -->
+      <div class="fixed-action-btn">
+        <a href="#" class="btn-floating red btn-large"><i class="large material-icons">mode_edit</i></a>
+        <ul>
+            <li><a href="#" class="btn-floating yellow btn-large"><i class="large material-icons">insert_chart</i></a></li>
+            <li><a href="#" class="btn-floating blue btn-large"><i class="large material-icons">format_quote</i></a></li>
+            <li><a href="#" class="btn-floating green btn-large"><i class="large material-icons">publish</i></a></li>
+            <li><a href="#" class="btn-floating orange btn-large"><i class="large material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+
+      <!-- FLAT BUTTON -->
+      <a href="#" class="waves-effect waves-teal btn-flat">Flat Button</a>
+      <a class="waves-effect waves-teal btn-flat">Button</a>
+
+      <h1>Helpers</h1>
+      <!-- ALIGNMENT -->
+      <div>
+          <h5 class="left-align">This aligns to the left</h5>          
+      </div>
+      <div>
+          <h5 class="right-align">This aligns to the right</h5>
+      </div>
+      <div>
+          <h5 class="center-align">This aligns to the center</h5>
+      </div>
+
+      <!-- Quick Floats -->
+      <div class="left">Left Float</div>
+      <div class="right">Right Float</div>
+
+      <!-- CLEAR -->
+      <div class="clearfix">This is necessary to make the floats behave</div>
+
+      <!-- HIDING CONTENT -->
+      <div class="hide">Hidden on all devices</div>
+      <div class="hide-on-small-only">Hidden for mobile devices</div>
+      <div class="hide-on-med-only">Hidden on tablets only</div>
+      <div class="hide-on-med-and-down">Hidden on tablets and smaller</div>
+      <div class="hide-on-med-and-up">Hidden on tablets and bigger</div>
+      <div class="hide-on-large-only">Hidden on desktops</div>
+
+      <!-- TRUNCATE -->
+      <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias molestiae harum quos quaerat quidem consequatur animi quae. Placeat, exercitationem earum dolorem voluptatibus vero debitis maiores tenetur suscipit voluptate aspernatur vitae.</p>
+
+      <!-- HOVERABLE AND PULSE -->
+      <div class="red white-text hoverable" style="margin-bottom:20px">hoverable content</div>
+      <div class="blue white-text _pulse">Pulse content</div>
+
+      <!-- SHADOWS -->
+      <p class="z-depth-1">z-depth-1</p>
+      <p class="z-depth-2">z-depth-2</p>
+      <p class="z-depth-3">z-depth-3</p>
+      <p class="z-depth-4">z-depth-4</p>
+      <p class="z-depth-5">z-depth-5</p>
+
+      <!-- FLOW TEXT -->
+      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellat soluta recusandae? Ipsam aperiam, vitae aut nobis laborum corrupti error sint. Ducimus laboriosam soluta beatae impedit debitis et rerum nesciunt?</p>
+
+      <!-- NAVIGATION -->
+      <!-- LEFT LOGO -->
+      <nav>
+        <div class="nav-wrapper blue">
+        <a href="" class="brand-logo">Logo</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+
+      <br><br>
+      <!-- RIGHT LOGO -->
+      <nav>
+        <div class="nav-wrapper red">
+            <a href="" class="brand-logo right">Logo</a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+      <br><br>
+        <!-- CENTER LOGO -->
+      <nav>
+        <div class="nav-wrapper green">
+            <a href="" class="brand-logo center">Logo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- DROPDOWN -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+
+      <nav>
+        <div class="nav-wrapper green">
+            <a href="" class="brand-logo center">Logo</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="dropdown-trigger" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+
+      <nav class="nav-extended">
+          <div class="nav-wrapper">
+              <a href="#" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="#">One</a></li>
+                  <li><a href="#">Two</a></li>
+                  <li><a href="#">Three</a></li>
+              </ul>
+          </div>
+          <div class="nav-content">
+              <ul class="tabs tabs-transparent">
+                  <li class="tab"><a href="#tab1">Tab 1</a></li>
+                  <li class="tab tab-disabled"><a href="#tab2">Tab 2 (disabled)</a></li>
+                  <li class="tab"><a href="#tab3" class="active">Tab 3</a></li>
+              </ul>
+          </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+        </ul>
+
+        <div id="tab1">
+            <h2>TAB 1</h2>
+            <!-- IMAGE -->
+            <img src="https://i.imgur.com/sUn7QRQ.jpg" alt="" class="responsive-img">
+        </div>
+        <div id="tab2">
+            <h2>TAB 2</h2>
+            <!-- IMAGE -->
+            <img src="https://i.imgur.com/sUn7QRQ.jpg" alt="" class="responsive-img circle">
+        </div>
+        <div id="tab3">
+            <h2>TAB 3</h2>
+            <!-- EMBEDDED VIDEO -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nqT8c5OFjEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div> <!-- This is the container closing tag -->
+
+    <div style="height:500px"></div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems, { 
+            hover: true,
+            coverTrigger: false
+            });
+      });
+      M.AutoInit()
+    //   this is the jquery solution
+    //   $(".dropdown-trigger").dropdown({ hover: false });
+    </script>
+  </body>
+</html>
